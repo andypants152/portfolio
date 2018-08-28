@@ -1,0 +1,20 @@
+body{
+    background: url("../images/plaid.jpg");
+    position: relative;
+}
+
+#header{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.nav-link{
+    color: #D81E5B;
+}
+
+main{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2{
+    text-align: center;
+}
