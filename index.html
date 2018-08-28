@@ -18,7 +18,7 @@
     <script src="main.js"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <nav id="header" class="navbar navbar-dark" style="background-color: #143642;">
         <a class="navbar-brand" href="#"><h1>Andy Meyer</h1></a>
@@ -28,97 +28,99 @@
         </ul>
     </nav>
     <main>
-        <div data-spy="scroll" data-target="#header">
 
-            <section id="portfolio">
-                <h2>Portfolio
-                    </h4>
-                    <div class="album py-5">
-                        <div class="container">
+        <section id="portfolio">
+            <h2>Portfolio
+                </h4>
+                <div class="album py-5">
+                    <div class="container">
 
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="card mb-4 shadow-sm">
-                                        <img class="card-img-top" src="assets/images/crystal-game.png" alt="Crystal Game">
-                                        <div class="card-body">
-                                            <p class="card-text">The Crystal Gems are under attack! You must match the attackers
-                                                strength without going over. Your own gems strength are random each game
-                                                though, so be careful!</p>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div class="btn-group">
-                                                    <a type="button" class="btn btn-sm btn-outline-secondary" href="https://andypants152.github.io/Crystal-Game/">View</a>
-                                                    <a type="button" class="btn btn-sm btn-outline-secondary" href="https://github.com/andypants152/Crystal-Game">Github</a>
-                                                </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img class="card-img-top" src="assets/images/crystal-game.png" alt="Crystal Game">
+                                    <div class="card-body">
+                                        <p class="card-text">The Crystal Gems are under attack! You must match the attackers
+                                            strength without going over. Your own gems strength are random each game though,
+                                            so be careful!</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a type="button" class="btn btn-sm btn-outline-secondary" href="https://andypants152.github.io/Crystal-Game/">View</a>
+                                                <a type="button" class="btn btn-sm btn-outline-secondary" href="https://github.com/andypants152/Crystal-Game">Github</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="card mb-4 shadow-sm">
-                                        <img class="card-img-top" src="assets/images/giftastic.PNG" alt="Giftastic">
-                                        <div class="card-body">
-                                            <p class="card-text">Celebrity Gifs brought to you by giphy!</p>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div class="btn-group">
-                                                    <a type="button" class="btn btn-sm btn-outline-secondary" href="https://andypants152.github.io/Giftastic/">View</a>
-                                                    <a type="button" class="btn btn-sm btn-outline-secondary" href="https://github.com/andypants152/Giftastic">Github</a>
-                                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img class="card-img-top" src="assets/images/giftastic.PNG" alt="Giftastic">
+                                    <div class="card-body">
+                                        <p class="card-text">Celebrity Gifs brought to you by giphy!</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a type="button" class="btn btn-sm btn-outline-secondary" href="https://andypants152.github.io/Giftastic/">View</a>
+                                                <a type="button" class="btn btn-sm btn-outline-secondary" href="https://github.com/andypants152/Giftastic">Github</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="card mb-4 shadow-sm">
-                                        <img class="card-img-top" src="assets/images/RPS.PNG" alt="Rock Paper Scissors">
-                                        <div class="card-body">
-                                            <p class="card-text">Play Rock Paper Scissors vs a friend over the internet!</p>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div class="btn-group">
-                                                    <a type="button" class="btn btn-sm btn-outline-secondary" href="https://andypants152.github.io/Multiplayer-RPS/">View</a>
-                                                    <a type="button" class="btn btn-sm btn-outline-secondary" href="https://github.com/andypants152/Multiplayer-RPS">Github</a>
-                                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img class="card-img-top" src="assets/images/RPS.PNG" alt="Rock Paper Scissors">
+                                    <div class="card-body">
+                                        <p class="card-text">Play Rock Paper Scissors vs a friend over the internet!</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a type="button" class="btn btn-sm btn-outline-secondary" href="https://andypants152.github.io/Multiplayer-RPS/">View</a>
+                                                <a type="button" class="btn btn-sm btn-outline-secondary" href="https://github.com/andypants152/Multiplayer-RPS">Github</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="card mb-4 shadow-sm">
-                                        <img class="card-img-top" src="assets/images/trivia.png" alt="Trivia">
-                                        <div class="card-body">
-                                            <p class="card-text">A simple computer trivia quiz, written with javascript and jQuery</p>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div class="btn-group">
-                                                    <a type="button" class="btn btn-sm btn-outline-secondary" href="https://andypants152.github.io/TriviaGame/">View</a>
-                                                    <a type="button" class="btn btn-sm btn-outline-secondary" href="https://github.com/andypants152/TriviaGame">Github</a>
-                                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img class="card-img-top" src="assets/images/trivia.png" alt="Trivia">
+                                    <div class="card-body">
+                                        <p class="card-text">A simple computer trivia quiz, written with javascript and jQuery</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a type="button" class="btn btn-sm btn-outline-secondary" href="https://andypants152.github.io/TriviaGame/">View</a>
+                                                <a type="button" class="btn btn-sm btn-outline-secondary" href="https://github.com/andypants152/TriviaGame">Github</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="card mb-4 shadow-sm">
-                                        <img class="card-img-top" src="assets/images/word-guess.png" alt="Word Guess">
-                                        <div class="card-body">
-                                            <p class="card-text">A simple letter guessing game against the computer.</p>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div class="btn-group">
-                                                    <a type="button" class="btn btn-sm btn-outline-secondary" href="https://andypants152.github.io/Word-Guess-Game/">View</a>
-                                                    <a type="button" class="btn btn-sm btn-outline-secondary" href="https://github.com/andypants152/Word-Guess-Game">Github</a>
-                                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img class="card-img-top" src="assets/images/word-guess.png" alt="Word Guess">
+                                    <div class="card-body">
+                                        <p class="card-text">A simple letter guessing game against the computer.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a type="button" class="btn btn-sm btn-outline-secondary" href="https://andypants152.github.io/Word-Guess-Game/">View</a>
+                                                <a type="button" class="btn btn-sm btn-outline-secondary" href="https://github.com/andypants152/Word-Guess-Game">Github</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-            </section>
+                    </div>
+        </section>
 
+        <section>
             <h2 id="about">About Me
                 </h4>
                 </div>
 
+                <a href="https://github.com/andypants152">Github</a>
+                <a href="https://medium.com/@andy_53193">Medium</a>
 
-                <a href="https://medium.com/@andy_53193">link</a>
+        </section>
     </main>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
