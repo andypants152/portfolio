@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Andy Meyer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
@@ -20,7 +20,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <nav id="header" class="navbar navbar-dark" style="background-color: #143642;">
+    <nav id="header" class="navbar navbar-dark fixed-top" style="background-color: #143642;">
         <a class="navbar-brand" href="#"><h1>Andy Meyer</h1></a>
         <ul class="nav nav-pills">
             <li class="nav-link" href="#portfolio">Portfolio</li>
@@ -36,6 +36,19 @@
                     <div class="container">
 
                         <div class="row">
+                                <div class="col-md-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <img class="card-img-top" src="assets/images/menu.gif" alt="Crystal Game">
+                                            <div class="card-body">
+                                                <p class="card-text">LIRI - A NPM interpretor for Spotify, Band in Town, and OMDB requests.</p>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+                                                        <a type="button" class="btn btn-sm btn-outline-secondary" href="https://github.com/andypants152/LIRI-node-app">Github</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                             <div class="col-md-4">
                                 <div class="card mb-4 shadow-sm">
                                     <img class="card-img-top" src="assets/images/crystal-game.png" alt="Crystal Game">
@@ -112,13 +125,33 @@
                     </div>
         </section>
 
-        <section>
-            <h2 id="about">About Me
-                </h4>
-                </div>
+        <section id="about">
+            <h2>About Me</h2>
 
-                <a href="https://github.com/andypants152">Github</a>
-                <a href="https://medium.com/@andy_53193">Medium</a>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-2 text-center">
+                    <a href="https://github.com/andypants152">
+                        <img src="assets/images/GitHub.png" alt="Github">
+                    </a>
+                </div>
+                <div class="col-2 text-center">
+                    <a href="https://medium.com/@andy_53193">
+                        <img src="assets/images/Medium.png" alt="Medium" height="64">
+                    </a>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-2 text-center">
+                    <a href="https://github.com/andypants152">Github</a>
+                </div>
+                <div class="col-2 text-center">
+                    <a href="https://medium.com/@andy_53193">Medium</a>
+                </div>
+                <div class="col"></div>
+            </div>
 
         </section>
     </main>
