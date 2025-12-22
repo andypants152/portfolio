@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-View the project [Here](https://andypants152.github.io/portfolio/)
+View the project [Here](andypants.xyz/portfolio/)
 
 ### Prerequisites
 
